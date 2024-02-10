@@ -1,1 +1,3 @@
 /deployableLambdas/
+/helloworld-lambda-full-event/target/
+/helloworld-lambda/target/
