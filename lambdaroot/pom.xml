@@ -26,6 +26,7 @@
 
 	<modules>
 		<module>helloworld-lambda</module>
+		<module>helloworld-lambda-full-event</module>
 	</modules>
 
 	<build>
