@@ -2,6 +2,7 @@
 <classpath>
 	<classpathentry kind="src" path="lambdaroot/helloworld-lambda/src/main/java"/>
 	<classpathentry kind="src" path="lambdaroot/helloworld-lambda-full-event/src/main/java"/>
+	<classpathentry kind="src" path="lambdaroot/helloworld-lambda-S3-event/src/main/java"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER">
 		<attributes>
 			<attribute name="module" value="true"/>
@@ -9,5 +10,10 @@
 	</classpathentry>
 	<classpathentry kind="lib" path="/home/prasenjit/YouTube/Projects/lib/.m2/repository/com/amazonaws/aws-lambda-java-core/1.2.1/aws-lambda-java-core-1.2.1.jar"/>
 	<classpathentry kind="lib" path="/home/prasenjit/YouTube/Projects/lib/.m2/repository/com/googlecode/json-simple/json-simple/1.1.1/json-simple-1.1.1.jar"/>
+	<classpathentry kind="lib" path="/home/prasenjit/YouTube/Projects/lib/.m2/repository/com/amazonaws/aws-lambda-java-events/3.11.1/aws-lambda-java-events-3.11.1.jar"/>
+	<classpathentry kind="lib" path="/home/prasenjit/YouTube/Projects/lib/.m2/repository/com/fasterxml/jackson/dataformat/jackson-dataformat-xml/2.16.0/jackson-dataformat-xml-2.16.0.jar"/>
+	<classpathentry kind="lib" path="/home/prasenjit/YouTube/Projects/lib/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.16.0/jackson-core-2.16.0.jar"/>
+	<classpathentry kind="lib" path="/home/prasenjit/YouTube/Projects/lib/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.16.0/jackson-databind-2.16.0.jar"/>
+	<classpathentry kind="lib" path="/home/prasenjit/YouTube/Projects/lib/.m2/repository/com/fasterxml/jackson/datatype/jackson-datatype-joda/2.16.0/jackson-datatype-joda-2.16.0.jar"/>
 	<classpathentry kind="output" path="lambdaroot/helloworld-lambda/target/classes"/>
 </classpath>
