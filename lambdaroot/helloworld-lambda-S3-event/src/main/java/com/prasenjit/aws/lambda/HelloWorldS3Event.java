@@ -31,6 +31,10 @@ public class HelloWorldS3Event implements RequestHandler<S3Event, String> {
 		String bucketName = record.getS3().getBucket().getName();
 		String fileKey = record.getS3().getObject().getUrlDecodedKey();
 		
+		//S3 bucket calling to get the content.
+		//Sent the file in email, u can zipped it.
+		//....Call dynamoDB to put the file name.
+		
 		LOG.log("bucketName : "+bucketName+"\n");
 		LOG.log("fileKey : "+fileKey+"\n");
 		

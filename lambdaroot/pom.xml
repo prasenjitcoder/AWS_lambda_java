@@ -28,6 +28,7 @@
 		<module>helloworld-lambda</module>
 		<module>helloworld-lambda-full-event</module>
 		<module>helloworld-lambda-S3-event</module>
+		<module>lambda-tutorials-java</module>
 	</modules>
 
 	<build>
