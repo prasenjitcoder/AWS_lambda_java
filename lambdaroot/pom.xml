@@ -20,7 +20,7 @@
 		<maven-compiler-plugin.version>3.10.1</maven-compiler-plugin.version>
 		<maven-install-plugin.version>2.5.2</maven-install-plugin.version>
 		<maven.version>3.8.4</maven.version>
-
+		<amazon.v2.version>2.21.32</amazon.v2.version>
 	</properties>
 
 
@@ -29,6 +29,7 @@
 		<module>helloworld-lambda-full-event</module>
 		<module>helloworld-lambda-S3-event</module>
 		<module>lambda-tutorials-java</module>
+		<module>upload-file-s3</module>
 	</modules>
 
 	<build>
