@@ -30,6 +30,8 @@
 		<module>helloworld-lambda-S3-event</module>
 		<module>lambda-tutorials-java</module>
 		<module>upload-file-s3</module>
+		<module>lambda-To-S3-Upload</module>
+		<module>lambda-To-S3-Delete</module>
 	</modules>
 
 	<build>
